@@ -1,0 +1,23 @@
+{
+    "name": "PyTorch2.8 CUDA12.8 Dev",
+    "image": "keepalivewww/pytorch-dev:latest",
+    "runArgs": [
+        "--gpus",
+        "all"
+    ],
+    "workspaceFolder": "/root/Codes",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/root/Codes,type=bind",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-python.debugpy",
+                "ms-toolsai.jupyter",
+                "openai.chatgpt"
+            ]
+        }
+    },
+    "remoteUser": "root",
+    "postCreateCommand": "bash -c 'source /opt/conda/etc/profile.d/conda.sh'"
+}

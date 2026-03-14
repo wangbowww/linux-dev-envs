@@ -1,0 +1,14 @@
+{
+    "name": "C++ Dev",
+    "image": "keepalivewww/cpp-dev:latest",
+    "workspaceFolder": "/root/Codes",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/root/Codes,type=bind",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools"
+            ]
+        }
+    },
+    "remoteUser": "root"
+}
