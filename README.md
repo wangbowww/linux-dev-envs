@@ -20,11 +20,13 @@ linux-dev-envs/
 │  ├─ C-Project/
 │  │  ├─ CMakeLists.txt
 │  │  ├─ Makefile
+│  │  ├─ includes
 │  │  └─ src/
 │  │     └─ main.c
 │  ├─ CPP-Project/
 │  │  ├─ CMakeLists.txt
 │  │  ├─ Makefile
+│  │  ├─ includes
 │  │  └─ src/
 │  │     └─ test.cpp
 │  └─ CPP-SingleFiles/
