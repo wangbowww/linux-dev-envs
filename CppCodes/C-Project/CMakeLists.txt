@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.16)
+project(test LANGUAGES C)
+
+set(CMAKE_C_STANDARD 17)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+set(CMAKE_C_EXTENSIONS OFF)
+
+file(GLOB SRC_FILES CONFIGURE_DEPENDS src/*.c)
+add_executable(test ${SRC_FILES})
+
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)

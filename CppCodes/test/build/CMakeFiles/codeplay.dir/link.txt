@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/codeplay.dir/link.d CMakeFiles/codeplay.dir/src/test.cpp.o -o /root/Codes/test/bin/codeplay
