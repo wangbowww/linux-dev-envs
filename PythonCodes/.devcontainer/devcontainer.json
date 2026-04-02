@@ -5,6 +5,9 @@
         "--gpus",
         "all"
     ],
+    "mounts": [
+        "source=D:\\Codes\\DATA,target=/root/DATA,type=bind"
+    ],
     "workspaceFolder": "/root/Codes",
     "workspaceMount": "source=${localWorkspaceFolder},target=/root/Codes,type=bind",
     "customizations": {
